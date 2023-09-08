@@ -47,11 +47,12 @@ Time Complexity:
 ## 2-)
 [16,21,11,8,12,22] -> Merge Sort
 
-Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
-Big-O gösterimini yazınız.
+A- Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+B- Big-O gösterimini yazınız.
 
-### Cevap:
+### Cevaplar:
 
+## 2.A
 # Merge Sort ile Sıralama
 
 Başlangıç dizisi: [16, 21, 11, 8, 12, 22]
@@ -72,5 +73,38 @@ Sıralanmış alt dizileri birleştir.
 
 Birleştirilmiş dizi: [8, 11, 12, 16, 21, 22]
 
-## Big-O Gösterimi
+## 2.B Big-O Gösterimi
 Merge Sort'un zaman karmaşıklığı O(n log n) şeklindedir.
+
+
+### 3-)[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+# Binary Search Tree Oluşturma
+
+- Root 7'dir.
+
+    - 5, 1, 8, 3, 6, 0, 9, 4, 2 sırasıyla eklenir.
+
+        - 5, 1, 8, 3, 6, 0, 9, 4, 2 eklemeleri sırasında ağaç şu şekilde büyür:
+
+          - Root 7'dir.
+          
+            - 5, Root'un solundadır.
+
+            - 1, 5'in solundadır.
+            
+            - 8, Root'un sağındadır.
+
+            - 3, 5'in sağındadır.
+
+            - 6, 3'ün sağındadır.
+
+            - 0, 1'in solundadır.
+            
+            - 9, 8'in sağındadır.
+
+            - 4, 3'ün sağındadır.
+
+            - 2, 1'in sağındadır.
